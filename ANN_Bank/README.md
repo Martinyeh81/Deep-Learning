@@ -39,13 +39,11 @@ Categorical: Surname, Geography, Gender
 ## Preprocessing
 
 ### Categorical
-  1. RandomForest: Directly convert into code
-  2. Linear regression: one hot encoding
+  one hot encoding
 
 ## Result
 
 
 ## Conclusions
-1. The data doesn't complete yet, especially the linear regression because we can increase the degree to compute the best result. However, we need enough time and good computer to run the data.
-2. Also for the Random Forest, we only try 10 and 100 trees. there are other parameter we can try.
+
 
