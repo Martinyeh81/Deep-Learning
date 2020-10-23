@@ -1,7 +1,7 @@
-# Predict customers who will exit the bank
+# Predict customers who will leave the bank
 
 ## Description
-  Our problem is to predict customers who will exit the bank, which is classification. 
+  Our problem is to predict customers who will leave the bank, which is classification. 
 
 ## Data
 
@@ -22,7 +22,7 @@ This is the data of 5 rows.
 5. Geography: Country
 6. Gender: Gender
 7. Age: Age
-8. Tenure: Tenure
+8. Tenure: How long does person use this bank
 9. Balance: Balance
 10. NumOfProducts: Number of Products
 11. HasCrCard: Has the credict card 
