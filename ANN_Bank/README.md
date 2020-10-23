@@ -1,7 +1,7 @@
-# Predict the price of Renfe AVE ticket
+# Predict customers who will exit the bank
 
 ## Description
-  Our problem is to predict the price of Renfe AVE ticket, which is regression. In fact, the ticket of train is basically influenced by distance and time, but perhaps there are other reasons which affect the price of ticket. Moreover, there are no particle rules which compute the price. Thus, we want to understand how company predict the price of tickets. Furthermore, there are some problems in the dataset.
+  Our problem is to predict customers who will exit the bank, which is classification. 
 
 ## Data
 
@@ -15,15 +15,20 @@ This is the data of 5 rows.
 |4|15701354|Boni|699|France|Female|39|1|0|2|0|0|93826.63|0|
 |5|15737888|Mitchell|850|Spain|Female|43|2|125510.82|1|1|1|79084.1|0|
 
-1. insert_date: date and time when the price was collected and written in the database, scrapping time (UTC)
-2. origin: origin city
-3. destination: destination city
-4. start_date: train departure time (European Central Time)
-5. end_date: train arrival time (European Central Time)
-6. train_type: train service name
-7. price: price (euros)
-8. train_class: ticket class, tourist, business, etc.
-9. fare: ticket fare, round trip, etc.
+1. RowNumber: Index of customer
+2. CustomerId: Number of custiners' identity
+3. Surname: Name of customer
+4. CreditScore: Credit Score 
+5. Geography: Country
+6. Gender: Gender
+7. Age: Age
+8. Tenure: Tenure
+9. Balance: Balance
+10. NumOfProducts: Number of Products
+11. HasCrCard: Has the credict card 
+12. IsActiveMember: The person is active
+13. EstimatedSalary: Estimated Salary
+14. Exited: Leave the bank
 
 ## Problem
 
