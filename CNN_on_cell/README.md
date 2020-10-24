@@ -6,10 +6,9 @@
 Parasitized is 0, Uninfected is 1
 
 Parasitized
-
 ![parasitized](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/C33P1thinF_IMG_20150619_114756a_cell_179.png)
-Uninfected
 
+Uninfected
 ![uninfected](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/C1_thinF_IMG_20150604_104722_cell_9.png)
 
 ## Problem
