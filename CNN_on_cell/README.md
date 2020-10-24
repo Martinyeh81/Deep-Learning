@@ -20,15 +20,18 @@ Uninfected
 ## Preprocessing
 ### Size of image
 we can find all the sizes of images are not the same, so we generate the mean of width and height. As a result, we can reshape all images to (130,130,3)
+
 ![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/shape_mean.png)
 
 ### Data Augmentation
 In oreder to avoid overfitting, we adjust the angle, shift width and height, zoom the image and so on.
+
 ![change](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
 
 ## Result
 
 ### Loss and accuracy
+
 ||loss|acc|val_loss|val_acc|
 | --- | --- | --- | --- | --- |
 |0|0.889313|0.551366|0.689229|0.561154|
@@ -48,12 +51,14 @@ In oreder to avoid overfitting, we adjust the angle, shift width and height, zoo
 ![loss](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/loss.png)
 
 ### Classification Report
+
 ||precision|recall|f1-score|support
 | --- | --- | --- | --- | --- |
 |0|0.94|0.93|0.94|1300|
 |1|0.93|0.94|0.94|1300|
 
 ### Confusion Matrix
+
 ![confusion](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/confusion%20matrix.png)
 
 
