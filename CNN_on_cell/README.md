@@ -5,8 +5,9 @@
 ## Data
 
 Parasitized
-
-uninfected
+![parasitized](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/C33P1thinF_IMG_20150619_114756a_cell_179.png)
+Uninfected
+![uninfected](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/C1_thinF_IMG_20150604_104722_cell_9.png)
 
 ## Problem
 1. All sizes of images are different
@@ -15,7 +16,7 @@ uninfected
 ## Preprocessing
 ### Size of image
 we can find all the sizes of images are not the same, so we generate the mean of width and height. As a result, we can reshape all images to (130,130,3)
-![shape](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
+![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/shape_mean.png)
 
 ### Data Augmentation
 In oreder to avoid overfitting, we adjust the angle, shift width and height, zoom the image and so on.
@@ -39,8 +40,8 @@ In oreder to avoid overfitting, we adjust the angle, shift width and height, zoo
 |10|0.173492|0.946991|0.173638|0.938462|
 |11|0.170545|0.948313|0.204041|0.935000|
 
-![change](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
-![change](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
+![accuracy](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/accuracy.png)
+![loss](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/loss.png)
 
 ### Classification Report
 ||precision|recall|f1-score|support
@@ -49,7 +50,7 @@ In oreder to avoid overfitting, we adjust the angle, shift width and height, zoo
 |1|0.93|0.94|0.94|1300|
 
 ### Confusion Matrix
-![change](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
+![confusion](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/confusion%20matrix.png)
 
 
 ## Conclusions
