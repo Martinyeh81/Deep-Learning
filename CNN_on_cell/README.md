@@ -62,6 +62,3 @@ In oreder to avoid overfitting, we adjust the angle, shift width and height, zoo
 ![confusion](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/confusion%20matrix.png)
 
 
-## Conclusions
-1. 
-
