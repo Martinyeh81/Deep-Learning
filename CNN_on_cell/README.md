@@ -21,14 +21,14 @@ Uninfected
 ### Size of image
 we can find all the sizes of images are not the same, so we generate the mean of width and height. As a result, we can reshape all images to (130,130,3)
 
-![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell_origin.png)
+![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/shape_mean.png)
 
 ### Data Augmentation
 In oreder to avoid overfitting, we adjust the angle, shift width and height, zoom the image and so on.
 
 Origin
 
-![change](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/shape_mean.png)
+![change](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell_origin.png)
 
 Random change
 
