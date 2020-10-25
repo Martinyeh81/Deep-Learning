@@ -21,9 +21,14 @@ Uninfected
 ### Size of image
 we can find all the sizes of images are not the same, so we generate the mean of width and height. As a result, we can reshape all images to (130,130,3)
 
+![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell_origin.png)
+
+### Data Augmentation
+In oreder to avoid overfitting, we adjust the angle, shift width and height, zoom the image and so on.
+
 Origin
 
-![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell_origin.png)
+![change](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/shape_mean.png)
 
 Random change
 
@@ -31,11 +36,6 @@ Random change
 ![cell2](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell2.png)
 ![cell3](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell3.png)
 ![cell4](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell4.png)
-
-### Data Augmentation
-In oreder to avoid overfitting, we adjust the angle, shift width and height, zoom the image and so on.
-
-![change](https://github.com/Martinyeh81/The-Data-Incubator/blob/master/section_1/Image/LR_Ridge_coef.png)
 
 ## Result
 
