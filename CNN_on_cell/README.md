@@ -22,7 +22,10 @@ Uninfected
 we can find all the sizes of images are not the same, so we generate the mean of width and height. As a result, we can reshape all images to (130,130,3)
 
 Origin
+
 ![shape](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell_origin.png)
+
+Random change
 
 ![cell1](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell1.png)
 ![cell2](https://github.com/Martinyeh81/Deep-Learning/blob/main/CNN_on_cell/image/cell2.png)
