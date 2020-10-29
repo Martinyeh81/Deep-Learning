@@ -42,8 +42,7 @@ Categorical: Surname, Geography, Gender
   one hot encoding
 
 ## Result
-
-
-## Conclusions
+The parameter is {'batch_size': 32, 'epochs': 500, 'optimizer': 'rmsprop'}
+The accuracy is 0.85874
 
 
